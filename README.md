@@ -10,7 +10,7 @@ Se utilizaron las siguientes herramientas: Visual Studio Code, Node.js Cucumber,
 2. [Requisitos] (utilizados en este proyecto)
 Node.js v14.17.6
 Java 8 para usar allure
-3. [Instalación](#instalación)
+3. [Instalación]
 -   Una vez clonado el proyecto realizar un "npm install" para instalar todas las dependencias utilizadas en el proyecto
 -   "npm install allure-commandline" para ejecutar los comandos de Allure
 
@@ -27,10 +27,8 @@ Java 8 para usar allure
 
 Nota aparte
 -   Si se desea visualizar el navegador chrome a traves cypress  ejecutar:
-            npm run cypress:execution
+            npm run cypress:runner
     
 -   Tomar en cuenta que todos los scripts se encuentran en el archivo package.json
-5. [Link de Video Demo]
-    Link
 
 

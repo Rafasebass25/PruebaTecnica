@@ -4,3 +4,4 @@ Feature: LogIn
       Given the user enters to the main page
        When user insert credentials for login
        Then the user press the login button
+       Then the user verifies that the login was successful

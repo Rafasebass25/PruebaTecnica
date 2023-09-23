@@ -7,7 +7,7 @@ When("the user create a new Item", () => {
 });
 
 When("the user update the item", () => {
-  mainPagePostLogin.updateItem('Item Updated');    
+  mainPagePostLogin.updateItem('Updated');    
 });
 
 When("the user deletes the item", () => {

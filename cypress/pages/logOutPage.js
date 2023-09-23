@@ -12,6 +12,9 @@ class LogOut{
     pressLogOutButton(){
         this.elements.logOutButtonMainPage().click();
     }
+    verifyVisibiltyLogOutButton(){
+      this.elements.logOutButtonMainPage().should('be.visible')
+    }
   } 
 export const logOut= new LogOut();
 

@@ -25,6 +25,9 @@ class TodoLy {
     pressLogInButton(){
         this.elements.submitLoginButton().click();
     }
+    verifyExistanceOfLoginButton(){
+      this.elements.LogInButtonMainPage().should('exist');
+  }
   }
   
 export const todoLy= new TodoLy();

@@ -1,4 +1,4 @@
-Feature: Create New Item
+Feature: Update Item
 
     Scenario: Create new item in Todo.Ly
       Given the user enters to the main page

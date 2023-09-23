@@ -17,15 +17,17 @@ a
     createNewItem(newItem){
         this.elements.newItemInputField().type(newItem);
         this.elements.addButton().click();
+        this.elements.existentItem().should('have.text','New Item')
     }
     //Metodo para actualizar un item
     updateItem(newItemUpdated){
       this.elements.existentItem().click();
       this.elements.editInputField().clear();
-      this.elements.editInputField().type(newItemUpdated);
+      this.elements.editInputField().type(newItemUpdated)
   }
     //Metodo para eliminar un item
     deleteItem(){
+    this.elements.existentItem().should('be.visible');
     this.elements.deleteItem().click();
 }
   } 
