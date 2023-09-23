@@ -27,8 +27,5 @@ module.exports = defineConfig({
     baseUrl: "https://todo.ly/",
     chromeWebSecurity: false,
     allureWriter
-    // env: {
-    //   allureReuseAfterSpec: true,
-    // },
   },
 });

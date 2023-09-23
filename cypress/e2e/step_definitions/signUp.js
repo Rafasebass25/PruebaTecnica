@@ -8,7 +8,7 @@ When("the user press the button sign up", () => {
     mainPagePreLogin.pressSignUpFreeButton(); 
 });
 When("the user fill the form", () => {
-    signUpFreeForm.fillingForm('Rafael Quispe','PruebaCorreo4@gmail.com','Prueba');
+    signUpFreeForm.fillingForm('Rafael Quispe','PruebaCorreo6@gmail.com','Prueba');
     signUpFreeForm.pressSignUpButtonForm();
 
 });
