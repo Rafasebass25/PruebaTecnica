@@ -1,3 +1,6 @@
+//Clase para para manejar los elementos web de la pagina que concierne al formulario de Sign Up
+//se tienen las funcionas para interactuar con dichos elementos
+
 class SignUpFreeForm{
 
     elements = {
@@ -10,6 +13,7 @@ class SignUpFreeForm{
     visit() {
       cy.visit('/');
     }
+    //Metodo para llenar el formulario de Sign Up
     
     fillingForm(fullName, email, password) {
         this.elements.fullName().type(fullName);
@@ -17,6 +21,7 @@ class SignUpFreeForm{
         this.elements.passwordField().type(password);
         this.elements.checkButton().click();
       }
+    //Metodo para presionar el butto de sign Up
     pressSignUpButtonForm(){
           this.elements.signUpButton().click();
       }

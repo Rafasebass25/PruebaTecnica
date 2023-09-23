@@ -12,11 +12,11 @@ class TodoLy {
     visit() {
       cy.visit('/');
     }
-   //Presionar el buton de login
+   //Metodo para presionar el buton de login
     logInButton(){
       this.elements.LogInButtonMainPage().click();
     }
-    //Ingresar las credenciales correspondientes
+    //Metodo para ingresar las credenciales correspondientes
     logIn(correo, password) {
       this.elements.emailField().type(correo);
       this.elements.passwordField().type(password);
